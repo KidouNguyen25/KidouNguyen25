@@ -158,6 +158,7 @@ h1.name .o{color:transparent;-webkit-text-stroke:1.5px var(--white);text-shadow:
 .panel ul{list-style:none;display:grid;gap:8px;max-width:52ch}
 .panel li{font:13.5px/1.5 var(--mono);color:#e4e0f5;padding-left:20px;position:relative}
 .panel li::before{content:"→";position:absolute;left:0;color:var(--ac)}
+.plink{font:700 11px var(--mono);letter-spacing:.12em;padding:6px 12px;border-radius:99px;background:var(--ac);color:#000}
 .panel .chips{margin-top:auto;padding-top:3vh;display:flex;gap:8px;flex-wrap:wrap}
 .pbar{margin:4vh var(--gut) 0;height:2px;background:#1c1a2b;position:relative}
 .pbar i{position:absolute;inset:0;background:var(--lime);transform-origin:left;transform:scaleX(0)}
@@ -264,17 +265,17 @@ body.shake main{animation:shake .38s linear}
     <div class="sh"><span class="num">03</span><h2 class="split skew ca">Main <em>vectors</em></h2></div>
     <div class="cards">
       <article class="card reveal" style="--ac:var(--cyan)"><span class="glyph">&lt;/&gt;</span><div class="idx">VECTOR.01 // BUILD</div><h3>Software Engineering</h3>
-        <ul><li>Web applications and deployable GitHub projects</li><li>Project automation with Git, GitHub Actions and structured development loops</li><li>Clean repository organization, documentation and repeatable setup</li><li>Java, Python, C/C++, JavaScript and TypeScript projects</li></ul>
-        <div class="chips"><span>JAVA</span><span>PYTHON</span><span>C/C++</span><span>TS</span></div></article>
+        <ul><li>Web applications with live deployments on Vercel</li><li>Automation with Git, GitHub Actions and CI gates</li><li>Clean repositories, ADRs, documentation and reproducible setup</li><li>JavaScript, TypeScript, Python, PowerShell, Java and C/C++</li></ul>
+        <div class="chips"><span>JAVASCRIPT</span><span>PYTHON</span><span>POWERSHELL</span><span>TS</span></div></article>
       <article class="card reveal" style="--ac:var(--mag)"><span class="glyph">n=pq</span><div class="idx">VECTOR.02 // DEFEND</div><h3>Cybersecurity</h3>
-        <ul><li>CTF practice and security coursework</li><li>Cryptography analysis, especially RSA-based challenges</li><li>Secure development habits, reproducible reports and technical writeups</li><li>Long-term: applied cybersecurity and security engineering</li></ul>
-        <div class="chips"><span>CTF</span><span>RSA</span><span>CRYPTO</span></div></article>
+        <ul><li>CTF writeups across cryptography, forensics and web</li><li>Vulnerability evidence from CISA KEV, NVD, OSV and ATT&amp;CK</li><li>Cryptography analysis, especially RSA-based challenges</li><li>Long-term: applied cybersecurity and security engineering</li></ul>
+        <div class="chips"><span>CTF</span><span>CRYPTO</span><span>CVE</span><span>ATT&amp;CK</span></div></article>
       <article class="card reveal" style="--ac:var(--lime)"><span class="glyph">GIS</span><div class="idx">VECTOR.03 // SEE</div><h3>GIS &amp; Computer Vision</h3>
-        <ul><li>QGIS automation and PyQGIS tool development</li><li>Raster processing, GeoTIFF workflows and georeferencing</li><li>Object detection from UAV or satellite imagery (YOLO-style)</li><li>Export detections to SHP and GeoPackage</li></ul>
-        <div class="chips"><span>QGIS</span><span>PYQGIS</span><span>YOLO</span><span>GEOTIFF</span></div></article>
+        <ul><li>360° imagery anchored on reconstructed historical maps</li><li>VN-2000 → WGS84 coordinate transforms</li><li>QGIS / PyQGIS automation and GeoTIFF workflows</li><li>Object detection from UAV or satellite imagery (YOLO-style)</li></ul>
+        <div class="chips"><span>WEB GIS</span><span>QGIS</span><span>WGS84</span><span>YOLO</span></div></article>
       <article class="card reveal" style="--ac:var(--vio)"><span class="glyph">AI</span><div class="idx">VECTOR.04 // AUGMENT</div><h3>AI-Assisted Dev</h3>
-        <ul><li>AI agent workflows for software development</li><li>Local models with Ollama where practical</li><li>Project memory systems and context-efficient rules</li><li>Subagent-style plan, build, review and test loops</li></ul>
-        <div class="chips"><span>OLLAMA</span><span>ANTIGRAVITY</span><span>SUBAGENTS</span></div></article>
+        <ul><li>Windows-native multi-agent orchestration</li><li>Chief / worker agents with cost-aware reasoning</li><li>Repository as persistent memory, ADR-driven decisions</li><li>Local models with Ollama where practical</li></ul>
+        <div class="chips"><span>MULTI-AGENT</span><span>OLLAMA</span><span>SUBAGENTS</span></div></article>
     </div>
   </section>
 
@@ -282,22 +283,22 @@ body.shake main{animation:shake .38s linear}
     <div class="pin">
       <div class="head"><div class="sh"><span class="num">04</span><h2 class="split ca">Now <em>building</em></h2></div></div>
       <div class="track" id="track">
-        <article class="panel" style="--ac:var(--lime)"><span class="pn">01</span><div class="idx">3D EDUCATIONAL MATH GAME</div><h3>Asteria Academies</h3>
-          <p>A 3D math game inspired by maze exploration, academy cities and logic puzzles.</p>
-          <ul><li>Grade 6 and Grade 7 as separate academy worlds</li><li>Basic curriculum up to olympiad-style reasoning</li><li>Aligned with Vietnamese education content</li><li>Browser-based, correct, playable, mobile-friendly</li></ul>
-          <div class="chips"><span>3D</span><span>MATH</span><span>BROWSER</span><span>AI-ASSISTED</span></div></article>
-        <article class="panel" style="--ac:var(--mag)"><span class="pn">02</span><div class="idx">RASTER → DETECTION → GIS</div><h3>GIS Detection Workflows</h3>
-          <p>Detecting aquaculture cages and floating raft structures from raster imagery.</p>
-          <ul><li>Better preprocessing of noisy imagery before AI</li><li>Detection as the final step, not the whole solution</li><li>Boxes, masks and boundaries exported to GIS formats</li><li>Spatial accuracy and georeferencing preserved</li></ul>
-          <div class="chips"><span>YOLO</span><span>QGIS</span><span>SHP</span><span>GPKG</span></div></article>
-        <article class="panel" style="--ac:var(--cyan)"><span class="pn">03</span><div class="idx">RESEARCH &amp; TOOLING</div><h3>GE Pro → QGIS Export</h3>
-          <p>Exporting high-quality Google Earth Pro imagery with usable coordinates for GIS work.</p>
-          <ul><li>Capture or infer viewport coordinates</li><li>Attach georeference data correctly</li><li>Reduce manual correction steps</li><li>Repeatable toolchain for QGIS users</li></ul>
-          <div class="chips"><span>GEOREF</span><span>QGIS</span><span>TOOLCHAIN</span></div></article>
-        <article class="panel" style="--ac:var(--vio)"><span class="pn">04</span><div class="idx">LONG-TERM CONTEXT</div><h3>AI Project Memory System</h3>
-          <p>A GitHub-based structure for storing long-term memory per project.</p>
-          <ul><li>One memory space per project</li><li>Compact context files for AI agents, fewer tokens</li><li>Rules, changelogs, decisions and task history</li><li>Continuity across development sessions</li></ul>
-          <div class="chips"><span>GITHUB</span><span>AGENTS</span><span>CONTEXT</span></div></article>
+        <article class="panel" style="--ac:var(--lime)"><span class="pn">01</span><div class="idx">WEB GIS · LIVE</div><h3>Vauban Hanoi 360°</h3>
+          <p>A Web GIS tour of five Vauban-style citadels around Hanoi, told through 360° photos and reconstructed maps.</p>
+          <ul><li>37 panoramas placed on the map</li><li>Map view fan turns with the panorama heading</li><li>MAP / SPLIT / 360° modes, mobile layout</li><li>Citadel geometry converted VN-2000 → WGS84</li></ul>
+          <div class="chips"><span>WEB GIS</span><span>360°</span><span>JAVASCRIPT</span><a class="plink" href="https://vauban-hanoi.vercel.app/" target="_blank" rel="noopener">▶ LIVE SITE</a></div></article>
+        <article class="panel" style="--ac:var(--mag)"><span class="pn">02</span><div class="idx">SECURITY RESEARCH</div><h3>Cyber Evidence Observatory</h3>
+          <p>Initial architecture of a research-grade platform for collecting and analysing cybersecurity evidence.</p>
+          <ul><li>CISA KEV · NVD · OSV · GHSA · MITRE CWE / CAPEC / ATT&amp;CK</li><li>Hourly, deterministic, incremental ingestion</li><li>Raw-source provenance preserved</li><li>Fetched content treated as untrusted data, validated</li></ul>
+          <div class="chips"><span>KEV</span><span>NVD</span><span>OSV</span><span>ATT&amp;CK</span></div></article>
+        <article class="panel" style="--ac:var(--vio)"><span class="pn">03</span><div class="idx">AGENT PLATFORM</div><h3>AI Company</h3>
+          <p>A Windows-native multi-agent AI company orchestration platform.</p>
+          <ul><li>Chief agent plans, worker fleet executes</li><li>Cost-aware reasoning and parallel pods</li><li>Milestone gates backed by local CI evidence</li><li>Decisions recorded as ADRs, repo as memory</li></ul>
+          <div class="chips"><span>POWERSHELL</span><span>MULTI-AGENT</span><span>WINDOWS</span><span>ADR</span></div></article>
+        <article class="panel" style="--ac:var(--cyan)"><span class="pn">04</span><div class="idx">WRITEUPS</div><h3>Capture The Flag</h3>
+          <p>picoCTF 2024 solutions, one folder per challenge.</p>
+          <ul><li>Cryptography · Forensics · Web</li><li>README + SOLUTION for every challenge</li><li>Reproducible data-fetch scripts</li><li>Grows with every new CTF</li></ul>
+          <div class="chips"><span>PICOCTF</span><span>CRYPTO</span><span>FORENSICS</span><a class="plink" href="https://github.com/KidouNguyen25/Capture-The-Flag" target="_blank" rel="noopener">▶ REPO</a></div></article>
       </div>
       <div class="pbar"><i id="pbar"></i></div>
     </div>
@@ -308,7 +309,7 @@ body.shake main{animation:shake .38s linear}
     <div class="mq" data-dir="1" style="--ac:var(--cyan)"><div class="in"><span class="lab">LANG</span><span>Python</span><span>Java</span><span>C</span><span>C++</span><span>JavaScript</span><span>TypeScript</span><span>SQL</span><span>Bash</span><span>PowerShell</span></div></div>
     <div class="mq o" data-dir="-1" style="--ac:var(--mag)"><div class="in"><span class="lab">LIBS</span><span>React</span><span>Vite</span><span>Three.js</span><span>PyQGIS</span><span>OpenCV</span><span>YOLO</span><span>SDL2</span><span>PySide6</span></div></div>
     <div class="mq" data-dir="1" style="--ac:var(--lime)"><div class="in"><span class="lab">GIS</span><span>QGIS</span><span>GeoTIFF</span><span>SHP</span><span>GeoPackage</span><span>Raster</span><span>Vector layers</span><span>Georeferencing</span></div></div>
-    <div class="mq o" data-dir="-1" style="--ac:var(--vio)"><div class="in"><span class="lab">TOOLS</span><span>Git</span><span>GitHub Actions</span><span>VS Code</span><span>IntelliJ IDEA</span><span>Ollama</span><span>Antigravity</span></div></div>
+    <div class="mq o" data-dir="-1" style="--ac:var(--vio)"><div class="in"><span class="lab">TOOLS</span><span>Git</span><span>GitHub Actions</span><span>VS Code</span><span>IntelliJ IDEA</span><span>Docker</span><span>Vercel</span><span>Ollama</span><span>Antigravity</span></div></div>
   </section>
 
   <section id="protocol" data-scene="06 · PROTOCOL">
@@ -335,7 +336,7 @@ body.shake main{animation:shake .38s linear}
         <div style="--i:3;--ac:var(--vio)"><small>SE</small><b>AI-assisted engineering</b></div>
         <div style="--i:4;--ac:var(--cyan)"><small>LOCAL</small><b>Local models &amp; agents</b></div>
         <div style="--i:5;--ac:var(--lime)"><small>GIS</small><b>Automation &amp; spatial accuracy</b></div>
-        <div style="--i:6;--ac:var(--mag)"><small>EDU</small><b>Educational game design</b></div>
+        <div style="--i:6;--ac:var(--mag)"><small>HERITAGE</small><b>Historical Web GIS</b></div>
       </div>
     </div>
   </section>
@@ -536,7 +537,7 @@ const script = [
   ['cmd', 'echo $PRIORITY'],
   ['out', '  correctness > polish', 'l'],
   ['cmd', 'ls ./research'],
-  ['out', '  applied-cybersecurity/   cryptography-ctf/\n  geospatial-cv/           ai-assisted-engineering/\n  local-models-agents/     gis-automation/\n  edu-game-design/', 'c'],
+  ['out', '  applied-cybersecurity/   cryptography-ctf/\n  geospatial-cv/           ai-assisted-engineering/\n  local-models-agents/     gis-automation/\n  heritage-web-gis/        security-evidence/', 'c'],
   ['cmd', './build --survive review,testing,refactoring,real-use'],
   ['out', '  [ok] systems compiled · growth logged', 'm'],
 ];

@@ -32,31 +32,31 @@
 <details>
 <summary><b>Read the directions as plain text</b></summary>
 
-- **Software Engineering** — web applications and deployable GitHub projects; automation with Git, GitHub Actions and structured development loops; clean repository organization, documentation and repeatable setup; Java, Python, C/C++, JavaScript and TypeScript.
-- **Cybersecurity** — CTF practice and security coursework; cryptography analysis, especially RSA-based challenges; secure development habits, reproducible reports and technical writeups. Long-term direction: applied cybersecurity and security engineering.
-- **GIS & Computer Vision** — QGIS automation and PyQGIS tools; raster processing, GeoTIFF workflows and georeferencing; object detection from UAV or satellite imagery; aquaculture cage / fish raft detection with YOLO-style models; export to SHP and GeoPackage.
-- **AI-Assisted Development** — AI agent workflows for software development; local models with Ollama; Antigravity / agent-based project execution; project memory systems and context-efficient rules; subagent-style planning, implementation, review and testing loops.
+- **Software Engineering** — web applications with live deployments; automation with Git, GitHub Actions and CI gates; clean repositories, ADRs, documentation and reproducible setup; JavaScript, TypeScript, Python, PowerShell, Java and C/C++.
+- **Cybersecurity** — CTF writeups across cryptography, forensics and web; vulnerability evidence from CISA KEV, NVD, OSV and MITRE ATT&CK; cryptography analysis, especially RSA-based challenges. Long-term direction: applied cybersecurity and security engineering.
+- **GIS & Computer Vision** — 360° imagery anchored on reconstructed historical maps; VN-2000 → WGS84 coordinate transforms; QGIS / PyQGIS automation and GeoTIFF workflows; object detection from UAV or satellite imagery.
+- **AI-Assisted Development** — Windows-native multi-agent orchestration; chief / worker agents with cost-aware reasoning; the repository as persistent project memory with ADR-driven decisions; local models with Ollama where practical.
 
 </details>
 
 <br/>
 
-<img src="assets/h-03.svg" width="100%" alt="03 Builds — projects in production"/>
+<img src="assets/h-03.svg" width="100%" alt="03 Builds — repos in active development"/>
 
 <p align="center">
-  <img src="assets/p-asteria.svg" width="49%" alt="Asteria Academies"/>
-  <img src="assets/p-gis.svg" width="49%" alt="GIS Detection Workflows"/>
-  <img src="assets/p-gep.svg" width="49%" alt="GE Pro to QGIS Export Research"/>
-  <img src="assets/p-mem.svg" width="49%" alt="AI Project Memory System"/>
+  <a href="https://vauban-hanoi.vercel.app/"><img src="assets/p-vauban.svg" width="49%" alt="Vauban Hanoi 360° — Web GIS"/></a>
+  <img src="assets/p-cseo.svg" width="49%" alt="CyberSecurity Evidence Observatory"/>
+  <img src="assets/p-aico.svg" width="49%" alt="AI Company — multi-agent orchestration"/>
+  <a href="https://github.com/KidouNguyen25/Capture-The-Flag"><img src="assets/p-ctf.svg" width="49%" alt="Capture The Flag writeups"/></a>
 </p>
 
 <details>
 <summary><b>Read the projects as plain text</b></summary>
 
-- **Asteria Academies** — a 3D educational math game inspired by maze exploration, academy cities and logic puzzles. Grade 6 and Grade 7 as separate academy worlds, puzzles from basic curriculum to olympiad-style reasoning, aligned with Vietnamese education content, browser-based with a strong focus on correctness, playable loops and mobile usability.
-- **GIS Detection Workflows** — detecting aquaculture cages and floating raft structures from raster imagery. Better preprocessing before AI detection, detection as the final step rather than the whole solution, export of boxes, masks and boundaries to GIS formats, preserved spatial accuracy, QGIS integration.
-- **GE Pro / QGIS Export Research** — exporting high-quality Google Earth Pro imagery with usable coordinates: capture or infer viewport coordinates, attach georeference data correctly, reduce manual correction, build a repeatable toolchain for QGIS users.
-- **AI Project Memory System** — a GitHub-based structure for long-term memory per project: one memory space per project, compact context files for AI agents, reduced token usage, clear rules, changelogs, decisions and task history.
+- **[Vauban Hanoi 360°](https://vauban-hanoi.vercel.app/)** — a Web GIS tour of five Vauban-style citadels around Hanoi. 37 panoramas are placed on a reconstructed map, and the view fan on the map turns with the panorama so you always know where you stand and which way you face. MAP, SPLIT and 360° modes, mobile layout, shareable scene links. Citadel geometry converted from VN-2000 to WGS84.
+- **CyberSecurity Evidence Observatory** — the initial architecture of a research-grade platform for collecting and analysing cybersecurity evidence. Hourly, deterministic ingestion from authoritative sources (CISA KEV, NVD, OSV, GitHub Security Advisories, MITRE CWE / CAPEC / ATT&CK) with preserved provenance. Retrieved content is always treated as untrusted data, and nothing passes without validation.
+- **AI Company** — a Windows-native multi-agent AI company orchestration platform. A chief agent plans, a worker fleet executes, and every milestone passes a gate backed by local CI evidence. Architecture decisions are recorded as ADRs, and the repository is the persistent memory.
+- **[Capture The Flag](https://github.com/KidouNguyen25/Capture-The-Flag)** — picoCTF 2024 solutions across cryptography, forensics and web, each with a README, a SOLUTION write-up and a reproducible data-fetch script.
 
 </details>
 
@@ -64,7 +64,7 @@
 
 <img src="assets/h-04.svg" width="100%" alt="04 Arsenal — tools and technologies"/>
 
-<img src="assets/stack.svg" width="100%" alt="Python, Java, C, C++, JavaScript, TypeScript, SQL, Bash, PowerShell · React, Vite, Three.js, PyQGIS, OpenCV, YOLO, SDL2, PySide6 · QGIS, GeoTIFF, SHP, GeoPackage · Git, GitHub Actions, VS Code, IntelliJ IDEA, Ollama, Antigravity"/>
+<img src="assets/stack.svg" width="100%" alt="Python, Java, C, C++, JavaScript, TypeScript, SQL, Bash, PowerShell · React, Vite, Three.js, PyQGIS, OpenCV, YOLO, SDL2, PySide6 · QGIS, GeoTIFF, SHP, GeoPackage · Git, GitHub Actions, VS Code, IntelliJ IDEA, Docker, Vercel, Ollama, Antigravity"/>
 
 <br/>
 
