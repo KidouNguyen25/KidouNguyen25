@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="84" viewBox="0 0 520 84" role="img" aria-label="Enter the 4D experience"><title>Enter the 4D experience</title><defs><linearGradient id="pb" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".5" stop-color="#ff2e88"/><stop offset="1" stop-color="#00e5ff"/><animateTransform attributeName="gradientTransform" type="translate" values="-.5 0;.5 0;-.5 0" dur="4s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="pc"><rect x="4" y="4" width="512" height="76" rx="38"/></clipPath></defs><style>.sans{font-family:'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif}.mono{font-family:'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace}.lbl{font-family:'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif;font-weight:800;font-size:19px;letter-spacing:3px;fill:#f5f3ff}
+.pl{transform-origin:52px 42px;animation:pl 1.6s ease-out infinite}@keyframes pl{0%{transform:scale(1);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+.sh{animation:sh 3s cubic-bezier(.6,0,.4,1) infinite}@keyframes sh{0%{transform:translateX(-200px) skewX(-20deg)}60%,100%{transform:translateX(620px) skewX(-20deg)}}</style>
+<rect x="4" y="4" width="512" height="76" rx="38" fill="#07060d" stroke="url(#pb)" stroke-width="2.5"/>
+<g clip-path="url(#pc)"><rect width="120" height="84" fill="url(#sw)" class="sh"/></g>
+<circle cx="52" cy="42" r="24" fill="none" stroke="#ff2e88" stroke-width="2" class="pl"/><circle cx="52" cy="42" r="24" fill="url(#pb)"/><path d="M46 31l17 11-17 11z" fill="#fff"/>
+<text x="96" y="49" class="lbl">ENTER THE 4D EXPERIENCE</text></svg>

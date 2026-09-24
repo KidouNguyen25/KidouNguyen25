@@ -1,133 +1,82 @@
-# Nguyen Duc Toan — KidouNguyen25
+<div align="center">
 
-I am an Information Technology student at UET, working across software engineering, cybersecurity, GIS, computer vision, and AI-assisted development workflows.
+<a href="https://kidounguyen25.github.io/KidouNguyen25/">
+  <img src="assets/hero.svg" width="100%" alt="Nguyễn Đức Toàn — KidouNguyen25 · IT student at UET · software engineering, cybersecurity, GIS, computer vision, AI agents"/>
+</a>
 
-My current focus is building practical systems instead of isolated demos: tools that can be tested, improved, documented, and reused.
+<a href="https://kidounguyen25.github.io/KidouNguyen25/">
+  <img src="assets/play.svg" width="380" alt="Enter the 4D experience"/>
+</a>
 
-## Main Technical Directions
+</div>
 
-### Software Engineering
+<br/>
 
-- Web applications and deployable GitHub projects
-- Project automation with Git, GitHub Actions, and structured development loops
-- Clean repository organization, documentation, and repeatable setup workflows
-- Java, Python, C/C++, JavaScript, and TypeScript-based projects
+<img src="assets/h-01.svg" width="100%" alt="01 Identity"/>
 
-### Cybersecurity
+> **Nguyễn Đức Toàn** — Information Technology student at **UET**, working across software engineering, cybersecurity, GIS, computer vision and AI-assisted development workflows.
+>
+> My focus is building **practical systems instead of isolated demos**: tools that can be tested, improved, documented and reused.
 
-- CTF practice and security coursework
-- Cryptography analysis, especially RSA-based challenges
-- Secure development habits, reproducible reports, and technical writeups
-- Long-term direction: applied cybersecurity and security engineering
+<br/>
 
-### GIS and Computer Vision
+<img src="assets/h-02.svg" width="100%" alt="02 Vectors — main technical directions"/>
 
-- QGIS automation and PyQGIS tool development
-- Raster processing, GeoTIFF workflows, and georeferencing
-- Object detection from UAV or satellite imagery
-- Aquaculture cage / fish raft detection with YOLO-style models
-- Exporting detection results to GIS formats such as SHP and GeoPackage
+<p align="center">
+  <img src="assets/d-se.svg" width="49%" alt="Software Engineering"/>
+  <img src="assets/d-sec.svg" width="49%" alt="Cybersecurity"/>
+  <img src="assets/d-gis.svg" width="49%" alt="GIS and Computer Vision"/>
+  <img src="assets/d-ai.svg" width="49%" alt="AI-Assisted Development"/>
+</p>
 
-### AI-Assisted Development
+<details>
+<summary><b>Read the directions as plain text</b></summary>
 
-- AI agent workflows for software development
-- Local model usage with Ollama where practical
-- Antigravity / agent-based project execution
-- Project memory systems and context-efficient development rules
-- Subagent-style planning, implementation, review, and testing loops
+- **Software Engineering** — web applications and deployable GitHub projects; automation with Git, GitHub Actions and structured development loops; clean repository organization, documentation and repeatable setup; Java, Python, C/C++, JavaScript and TypeScript.
+- **Cybersecurity** — CTF practice and security coursework; cryptography analysis, especially RSA-based challenges; secure development habits, reproducible reports and technical writeups. Long-term direction: applied cybersecurity and security engineering.
+- **GIS & Computer Vision** — QGIS automation and PyQGIS tools; raster processing, GeoTIFF workflows and georeferencing; object detection from UAV or satellite imagery; aquaculture cage / fish raft detection with YOLO-style models; export to SHP and GeoPackage.
+- **AI-Assisted Development** — AI agent workflows for software development; local models with Ollama; Antigravity / agent-based project execution; project memory systems and context-efficient rules; subagent-style planning, implementation, review and testing loops.
 
-## Projects I Am Building
+</details>
 
-### Asteria Academies
+<br/>
 
-A 3D educational math game inspired by maze exploration, academy cities, and logic puzzles.
+<img src="assets/h-03.svg" width="100%" alt="03 Builds — projects in production"/>
 
-Core ideas:
+<p align="center">
+  <img src="assets/p-asteria.svg" width="49%" alt="Asteria Academies"/>
+  <img src="assets/p-gis.svg" width="49%" alt="GIS Detection Workflows"/>
+  <img src="assets/p-gep.svg" width="49%" alt="GE Pro to QGIS Export Research"/>
+  <img src="assets/p-mem.svg" width="49%" alt="AI Project Memory System"/>
+</p>
 
-- Grade 6 and Grade 7 as separate academy worlds
-- Math puzzles from basic curriculum to olympiad-style reasoning
-- Curriculum coverage aligned with Vietnamese education content
-- Browser-based gameplay with iterative AI-assisted development
-- Strong focus on correctness, playable loops, and mobile usability
+<details>
+<summary><b>Read the projects as plain text</b></summary>
 
-### GIS Detection Workflows
+- **Asteria Academies** — a 3D educational math game inspired by maze exploration, academy cities and logic puzzles. Grade 6 and Grade 7 as separate academy worlds, puzzles from basic curriculum to olympiad-style reasoning, aligned with Vietnamese education content, browser-based with a strong focus on correctness, playable loops and mobile usability.
+- **GIS Detection Workflows** — detecting aquaculture cages and floating raft structures from raster imagery. Better preprocessing before AI detection, detection as the final step rather than the whole solution, export of boxes, masks and boundaries to GIS formats, preserved spatial accuracy, QGIS integration.
+- **GE Pro / QGIS Export Research** — exporting high-quality Google Earth Pro imagery with usable coordinates: capture or infer viewport coordinates, attach georeference data correctly, reduce manual correction, build a repeatable toolchain for QGIS users.
+- **AI Project Memory System** — a GitHub-based structure for long-term memory per project: one memory space per project, compact context files for AI agents, reduced token usage, clear rules, changelogs, decisions and task history.
 
-A set of workflows for detecting aquaculture cages and floating raft structures from raster imagery.
+</details>
 
-Core goals:
+<br/>
 
-- Improve noisy image preprocessing before AI detection
-- Use object detection only as the final step, not the whole solution
-- Export bounding boxes, masks, and object boundaries to GIS formats
-- Preserve spatial accuracy and georeferencing quality
-- Integrate with QGIS where possible
+<img src="assets/h-04.svg" width="100%" alt="04 Arsenal — tools and technologies"/>
 
-### GE Pro / QGIS Export Research
+<img src="assets/stack.svg" width="100%" alt="Python, Java, C, C++, JavaScript, TypeScript, SQL, Bash, PowerShell · React, Vite, Three.js, PyQGIS, OpenCV, YOLO, SDL2, PySide6 · QGIS, GeoTIFF, SHP, GeoPackage · Git, GitHub Actions, VS Code, IntelliJ IDEA, Ollama, Antigravity"/>
 
-Research and tooling around exporting high-quality Google Earth Pro imagery with usable coordinates for GIS workflows.
+<br/>
 
-Core goals:
+<img src="assets/h-05.svg" width="100%" alt="05 Protocol — working style and research"/>
 
-- Capture or infer viewport coordinates
-- Attach georeference data correctly
-- Reduce manual correction steps
-- Build a repeatable toolchain for QGIS users
+<img src="assets/terminal.svg" width="100%" alt="Working style: logically structured, testable, documented, reproducible, long-term, resistant to context loss. Correctness before polish."/>
 
-### AI Project Memory System
+<br/>
 
-A GitHub-based structure for storing long-term memory per project.
+<img src="assets/h-06.svg" width="100%" alt="06 Trajectory — GitHub direction"/>
 
-Core goals:
+> This account is a technical record of growth: coursework, research, prototypes, experiments and production-ready tools.
+> The goal is not to collect unfinished repositories — it is to build systems that **survive review, testing, refactoring and real use.**
 
-- One memory space per project
-- Compact context files for AI agents
-- Reduced token usage
-- Clear rules, changelogs, decisions, and task history
-- Better continuity across development sessions
-
-## Tools and Technologies
-
-### Languages
-
-Python · Java · C · C++ · JavaScript · TypeScript · SQL · Bash · PowerShell
-
-### Frameworks and Libraries
-
-React · Vite · Three.js · PyQGIS · OpenCV · YOLO · SDL2 · PySide6
-
-### GIS and Data
-
-QGIS · GeoTIFF · SHP · GeoPackage · Raster processing · Vector layers · Georeferencing
-
-### Development Tools
-
-Git · GitHub · GitHub Actions · VS Code · IntelliJ IDEA · Windows · PowerShell · Ollama · Antigravity
-
-## Working Style
-
-I prefer systems that are:
-
-- logically structured
-- testable
-- documented
-- reproducible
-- optimized for long-term development
-- resistant to context loss
-
-I value correctness before polish. A project that works reliably is better than a project that only looks complete.
-
-## Current Learning and Research Areas
-
-- Applied cybersecurity
-- Cryptography and CTF problem solving
-- Computer vision for geospatial object detection
-- AI-assisted software engineering
-- Local AI models and agent workflows
-- GIS automation and spatial data accuracy
-- Educational game design with real curriculum coverage
-
-## GitHub Direction
-
-This GitHub account is intended to become a technical record of my growth: coursework, research, prototypes, experiments, and production-ready tools.
-
-The goal is not to collect many unfinished repositories. The goal is to build systems that can survive review, testing, refactoring, and real use.
+<img src="assets/footer.svg" width="100%" alt="Build systems that survive."/>
